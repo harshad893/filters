@@ -6,3 +6,7 @@ date=date.today()
 def filters(request):
     d={'data':'hai PYTHon','date1':date,'count':1}
     return render(request,'filters.html',d)
+
+def user(request):
+    d={'data':'hai PYTHon'}
+    return render(request,'user.html',d)
